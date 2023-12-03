@@ -73,7 +73,7 @@ describe('main', () => {
             
             cy.xpath('/html/body/div[4]/div/div/div[2]/div/table/tbody/tr[4]/td[2]').eq(0).should('contain.text', '0123456789')
 
-            cy.xpath('/html/body/div[4]/div/div/div[2]/div/table/tbody/tr[5]/td[2]').eq(0).should('contain.text', '02 December,2023')
+            cy.xpath('/html/body/div[4]/div/div/div[2]/div/table/tbody/tr[5]/td[2]').eq(0).should('contain.text', '03 December,2023')
 
             cy.xpath('/html/body/div[4]/div/div/div[2]/div/table/tbody/tr[6]/td[2]').eq(0).should('contain.text', 'Computer Science')
 
